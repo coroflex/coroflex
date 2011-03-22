@@ -5,8 +5,8 @@ li {float:left;}
 a {text-decoration:none; color:#808080;font-size:80%;}
 .wrapper {width:760px; margin:0 auto;}
 .wrapper .container {border:1px solid #ccc; margin-top:20px;}
-.container .header {height:80px;}
-.container .header .logo {height:70px; width:140px; float:left; margin:15px; border:none;}
+.container .header {height:75px;}
+.container .header .logo {height:70px; width:140px; float:left; margin:5px 15px; border:none;}
 .container .header .nav {height:25px; width:320px;float:right; margin:45px 5px 0 0;}
 .container .header .nav li { margin:0 5px; height:25px;}
 .container .header .nav a {font-weight:bold; display:block; padding-bottom:2px;}
