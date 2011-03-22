@@ -38,11 +38,15 @@ a {text-decoration:none; color:#808080;font-size:80%;}
 .container .content.twoColumns .firstColumn { float:left;width:480px; }
 .container .content.twoColumns .secondColumn { float:left;width:227px;padding-left:10px;border-left:1px solid #ccc; }
 
+.container .content.sideColumn .firstColumn { float:left;width:359px; }
+.container .content.sideColumn .secondColumn { float:left;width:348px;padding-left:10px;border-left:1px solid #ccc; }
+
+
 .contacts label {float:left;display:block;width:200px;}
 
 .content h1 {font-weight:bold;font-size:90%;color:#09f;margin:20px 0 15px;}
 .content h2 {font-weight:bold;font-size:80%;color:#ff6600;margin:20px 0 15px;}
 
-.container .content.twoColumns .firstColumn,
-.container .content.twoColumns .secondColumn { font-size:12px; }
+.container .content .firstColumn,
+.container .content .secondColumn { font-size:12px; }
 

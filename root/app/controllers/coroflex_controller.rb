@@ -16,7 +16,7 @@ class CoroflexController < ApplicationController
   def services
 	@pageTitle = 'Services'
 	@controllername = self.action_name
-	@pageTitle = 'twoColumn'
+	@layoutType = 'twoColumn'
   end
   def products
 	@pageTitle = 'Products'
