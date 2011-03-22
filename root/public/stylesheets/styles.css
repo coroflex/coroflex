@@ -32,3 +32,5 @@ a {text-decoration:none; color:#808080;font-size:80%;}
 .services .container .header .nav .services a,
 .products .container .header .nav .products a,
 .contacts .container .header .nav .contacts a {color:#f60; border-bottom:3px solid #f60;}
+
+.contacts label {float:left;}
