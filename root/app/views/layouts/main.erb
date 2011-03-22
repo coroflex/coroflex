@@ -25,11 +25,11 @@
 			</div>
 			<div class="display"><img src="/images/display.jpg" /></div>
 		</div>
-		<div class="content <%=@layoutType%>">
+		<div class="content clearfix <%=@layoutType%>">
 			<%if @pageTitle != ''%>
 			<h1><%=@pageTitle%></h1>
 			<%end%>
-			<%= yield %>	
+			<%= yield %>
 		</div>
 	</div>
 	<%=render :partial => "static/footer_partial" %>

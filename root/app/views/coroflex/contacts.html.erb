@@ -1,5 +1,5 @@
 <!-- First Column -->
-<div>
+<div class="firstColumn">
 	<form action="">
 		<label>Full name</label><input type="text" id="fullname" />
 		<label>E-mail</label><input type="text" id="email" />
@@ -8,7 +8,7 @@
 
 <%if @layoutType == 'twoColumns' || @layoutType == 'sideColumn'%>
 <!-- Second Column -->
-<div class="<%=@layoutType%>">
+<div class="secondColumn">
 	second column
 </div>
 <%end%>
