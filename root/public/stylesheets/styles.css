@@ -33,4 +33,7 @@ a {text-decoration:none; color:#808080;font-size:80%;}
 .products .container .header .nav .products a,
 .contacts .container .header .nav .contacts a {color:#f60; border-bottom:3px solid #f60;}
 
-.contacts label {float:left;}
+.contacts label {float:left;display:block;width:200px;}
+
+.content h1 {font-weight:bold;font-size:90%;color:#09f;margin:20px 0 15px;}
+

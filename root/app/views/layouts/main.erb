@@ -25,7 +25,10 @@
 			</div>
 			<div class="display"><img src="/images/display.jpg" /></div>
 		</div>
-		<div class="content">
+		<div class="content <%=@layoutType%>">
+			<%if @pageTitle != ''%>
+			<h1><%=@pageTitle%></h1>
+			<%end%>
 			<%= yield %>	
 		</div>
 	</div>

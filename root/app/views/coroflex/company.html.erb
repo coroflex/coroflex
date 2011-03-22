@@ -1,1 +1,11 @@
-<h1>company</h1>
+<!-- First Column -->
+<div>
+	First Column
+</div>
+
+<%if @layoutType == 'twoColumns' || @layoutType == 'sideColumn'%>
+<!-- Second Column -->
+<div class="<%=@layoutType%>">
+	Second Column
+</div>
+<%end%>

@@ -1,2 +1,11 @@
-<h1>Coroflex#services</h1>
-<p>Find me in app/views/coroflex/services.html.erb</p>
+<!-- First Column -->
+<div>
+	First Column
+</div>
+
+<%if @layoutType == 'twoColumns' || @layoutType == 'sideColumn'%>
+<!-- Second Column -->
+<div class="<%=@layoutType%>">
+	Second Column
+</div>
+<%end%>

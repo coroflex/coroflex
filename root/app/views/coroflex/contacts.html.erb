@@ -1,5 +1,14 @@
-<h1>contacts</h1>
-<form action="">
-	<lebel>Full name</label><input type="text" id="fullname" />
-	<lebel>E-mail</label><input type="text" id="email" />
-</form>
+<!-- First Column -->
+<div>
+	<form action="">
+		<label>Full name</label><input type="text" id="fullname" />
+		<label>E-mail</label><input type="text" id="email" />
+	</form>
+</div>
+
+<%if @layoutType == 'twoColumns' || @layoutType == 'sideColumn'%>
+<!-- Second Column -->
+<div class="<%=@layoutType%>">
+	second column
+</div>
+<%end%>
