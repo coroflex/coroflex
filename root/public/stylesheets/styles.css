@@ -35,17 +35,19 @@ a {text-decoration:none; color:#808080;font-size:80%;}
 
 /* Layout Management */
 .clearfix:after { content: ".";display: block;height: 0;clear: both;visibility: hidden; }
-.container .content.twoColumns .firstColumn { float:left;width:480px; }
-.container .content.twoColumns .secondColumn { float:left;width:227px;padding-left:10px;border-left:1px solid #ccc; }
+.container .content.sideColumn .firstColumn { float:left;width:480px; }
+.container .content.sideColumn .secondColumn { float:left;width:227px;padding-left:10px;border-left:1px solid #ececec; }
 
-.container .content.sideColumn .firstColumn { float:left;width:359px; }
-.container .content.sideColumn .secondColumn { float:left;width:348px;padding-left:10px;border-left:1px solid #ccc; }
+.container .content.twoColumns .firstColumn { float:left;width:359px; }
+.container .content.twoColumns .secondColumn { float:left;width:348px;padding-left:10px;border-left:1px solid #ececec; }
 
 
-.contacts label {float:left;display:block;width:200px;height:24px;}
+.contacts label {float:left;display:block;width:180px;padding:5px 0;margin:2px 0;}
+.contacts input {width:250px;margin:2px 0;font-family:arial,verdana,helvetica,sans-serif;}
 
-.content h1 {font-weight:bold;font-size:90%;color:#09f;margin:20px 0 15px;}
+.content > h1 {font-weight:bold;font-size:90%;color:#09f;margin:20px 0 15px;border:1px solid #ececec;border-style: solid none solid;padding:5px 0; }
 .content h2 {font-weight:bold;font-size:80%;color:#ff6600;margin:20px 0 15px;}
+.contacts .content h2 {font-size:100%;margin:0;}
 
 .container .content .firstColumn,
 .container .content .secondColumn { font-size:12px; }

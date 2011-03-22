@@ -1,14 +1,17 @@
 <!-- First Column -->
 <div class="firstColumn">
 	<form action="">
-		<label>Full name</label><input type="text" id="fullname" />
-		<label>E-mail</label><input type="text" id="email" />
+		<label>First name</label><input type="text" id="firstname" />
+		<label>Last name</label><input type="text" id="lastname" />
+		<label>Email address:</label><input type="text" id="email" />
+		<label>Phone:</label><input type="text" id="phone" />
+		<label>Questions/Comments:</label><input type="text" id="comments" />
 	</form>
 </div>
 
 <%if @layoutType == 'twoColumns' || @layoutType == 'sideColumn'%>
 <!-- Second Column -->
 <div class="secondColumn">
-	second column
+	<h2>contact information</h2>
 </div>
 <%end%>
