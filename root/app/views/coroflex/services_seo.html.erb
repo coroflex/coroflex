@@ -1,11 +1,11 @@
 <!-- First Column -->
-<div>
+<div class="firstColumn">
 	First Column
 </div>
 
 <%if @layoutType == 'twoColumns' || @layoutType == 'sideColumn'%>
 <!-- Second Column -->
-<div class="<%=@layoutType%>">
+<div class="secondColumn">
 	Second Column
 </div>
 <%end%>
