@@ -6,7 +6,7 @@ a {text-decoration:none; color:#808080;font-size:80%;}
 .wrapper {width:760px; margin:0 auto;}
 .wrapper .container {border:1px solid #ccc; margin-top:20px;}
 .container .header {height:80px;}
-.container .header .logo {height:40px; width:154px; float:left; margin:15px; border:none;}
+.container .header .logo {height:70px; width:140px; float:left; margin:15px; border:none;}
 .container .header .nav {height:25px; width:320px;float:right; margin:45px 5px 0 0;}
 .container .header .nav li { margin:0 5px; height:25px;}
 .container .header .nav a {font-weight:bold; display:block; padding-bottom:2px;}
@@ -42,7 +42,7 @@ a {text-decoration:none; color:#808080;font-size:80%;}
 .container .content.sideColumn .secondColumn { float:left;width:348px;padding-left:10px;border-left:1px solid #ccc; }
 
 
-.contacts label {float:left;display:block;width:200px;}
+.contacts label {float:left;display:block;width:200px;height:24px;}
 
 .content h1 {font-weight:bold;font-size:90%;color:#09f;margin:20px 0 15px;}
 .content h2 {font-weight:bold;font-size:80%;color:#ff6600;margin:20px 0 15px;}
